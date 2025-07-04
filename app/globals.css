@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #f5f7fa;
+    --color-surface: #ffffff;
+    --color-text: #0f1115;
+    --color-muted: #5c5f66;
+    --color-primary: #0b335e;
+    --color-accent: #5588b3;
+    --color-border: #e2e6ea;
+    --color-focus: #0088ff;
+    --color-shadow: rgba(15, 17, 21, 0.08);
+
+    --background: var(--color-bg);
+    --foreground: var(--color-text);
+    --card: var(--color-surface);
+    --card-foreground: var(--color-text);
+    --popover: var(--color-surface);
+    --popover-foreground: var(--color-text);
+    --primary: var(--color-primary);
+    --primary-foreground: var(--color-surface);
+    --secondary: var(--color-accent);
+    --secondary-foreground: var(--color-text);
+    --muted: var(--color-border);
+    --muted-foreground: var(--color-muted);
+    --accent: var(--color-accent);
+    --accent-foreground: var(--color-text);
+    --destructive: #ef4444;
+    --destructive-foreground: var(--color-surface);
+    --border: var(--color-border);
+    --input: var(--color-border);
+    --ring: var(--color-focus);
+    --radius: 0.5rem;
+
+    --font-inter: "Inter", sans-serif;
+    --font-noto-bengali: "Noto Sans Bengali", sans-serif;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-noto-bengali), sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-inter), sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+
+  .ui-text {
+    font-family: var(--font-inter), sans-serif;
+    font-weight: 500;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

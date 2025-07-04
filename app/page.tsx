@@ -84,7 +84,7 @@ export default function HomePage() {
               WRITING
             </Link>
             <Link
-              href="#about"
+              href="/about"
               className="ui-text text-sm md:text-base tracking-wider hover:opacity-80 transition-colors"
               style={{
                 color: "var(--color-muted)",

@@ -99,31 +99,40 @@ export default function HomePage() {
 
       {/* Journey Timeline */}
       <main className="container mx-auto px-4 pb-16">
-        <section className="max-w-3xl mx-auto">
-          <h2
-            className="text-3xl font-semibold mb-8"
-            style={{ color: "var(--color-text)" }}
+        <section className="max-w-3xl mx-auto mt-16">
+          <div
+            className="rounded-lg p-8 md:p-12"
+            style={{ backgroundColor: "var(--color-surface)" }}
           >
-            My Journey: Experiments That Keep Growing
-          </h2>
-          <div className="relative pl-8">
-            <div
-              className="absolute left-4 top-0 bottom-0 w-px"
-              style={{ backgroundColor: "var(--color-border)" }}
-            ></div>
-            <div className="space-y-12">
+            <h2
+              className="text-3xl font-semibold mb-8"
+              style={{ color: "var(--color-text)" }}
+            >
+              My Journey: Experiments That Keep Growing
+            </h2>
+            <div className="relative pl-8">
+              <div
+                className="absolute left-4 top-0 bottom-0 w-px"
+                style={{ backgroundColor: "var(--color-border)" }}
+              ></div>
+              <div className="space-y-16">
               {/* 2024 – Present */}
               <div className="flex flex-col sm:flex-row sm:items-start">
                 <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
-                  <img
-                    src="/images/My_journey_logo/becb6b33-b06b-43b8-a022-ab72aa70a5af (1).png"
-                    alt="OnnoRokom logo"
-                    className="w-16 h-16 object-contain"
-                  />
+                  <div
+                    className="h-16 w-16 p-2 rounded"
+                    style={{ backgroundColor: "var(--color-surface)", border: `1px solid var(--color-border)` }}
+                  >
+                    <img
+                      src="/images/My_journey_logo/becb6b33-b06b-43b8-a022-ab72aa70a5af (1).png"
+                      alt="OnnoRokom logo"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
                 </div>
                 <div className="sm:ml-8">
                   <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
-                    📍 2024 – Present
+                    2024 – Present
                   </p>
                   <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
                     Head of AI & Agents, OnnoRokom AI
@@ -137,20 +146,30 @@ export default function HomePage() {
               {/* 2022 – 2024 */}
               <div className="flex flex-col sm:flex-row sm:items-start">
                 <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0 flex space-x-2">
-                  <img
-                    src="/images/My_journey_logo/utkorsho-logo-abid-adnan.jpeg"
-                    alt="Utkorsho logo"
-                    className="w-12 h-12 object-contain"
-                  />
-                  <img
-                    src="/images/My_journey_logo/bigganbaksho-logo-abid-adnan-head-of-marketing.png"
-                    alt="BigganBaksho logo"
-                    className="w-12 h-12 object-contain"
-                  />
+                  <div
+                    className="h-16 w-16 p-2 rounded"
+                    style={{ backgroundColor: "var(--color-surface)", border: `1px solid var(--color-border)` }}
+                  >
+                    <img
+                      src="/images/My_journey_logo/utkorsho-logo-abid-adnan.jpeg"
+                      alt="Utkorsho logo"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                  <div
+                    className="h-16 w-16 p-2 rounded"
+                    style={{ backgroundColor: "var(--color-surface)", border: `1px solid var(--color-border)` }}
+                  >
+                    <img
+                      src="/images/My_journey_logo/bigganbaksho-logo-abid-adnan-head-of-marketing.png"
+                      alt="BigganBaksho logo"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
                 </div>
                 <div className="sm:ml-8">
                   <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
-                    📍 2022 – 2024
+                    2022 – 2024
                   </p>
                   <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
                     Chief Marketing & Chief Sales Officer, OnnoRokom EdTech (Utkorsho &amp; Bigganbaksho)
@@ -165,15 +184,20 @@ export default function HomePage() {
               {/* 2023 */}
               <div className="flex flex-col sm:flex-row sm:items-start">
                 <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
-                  <img
-                    src="/images/My_journey_logo/becb6b33-b06b-43b8-a022-ab72aa70a5af (1).png"
-                    alt="GPTBangla logo"
-                    className="w-16 h-16 object-contain"
-                  />
+                  <div
+                    className="h-16 w-16 p-2 rounded"
+                    style={{ backgroundColor: "var(--color-surface)", border: `1px solid var(--color-border)` }}
+                  >
+                    <img
+                      src="/images/My_journey_logo/becb6b33-b06b-43b8-a022-ab72aa70a5af (1).png"
+                      alt="GPTBangla logo"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
                 </div>
                 <div className="sm:ml-8">
                   <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
-                    📍 2023
+                    2023
                   </p>
                   <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
                     Founded, GPTBangla.com
@@ -187,15 +211,20 @@ export default function HomePage() {
               {/* 2021 */}
               <div className="flex flex-col sm:flex-row sm:items-start">
                 <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
-                  <img
-                    src="/images/My_journey_logo/fiverr-logo.webp"
-                    alt="Fiverr logo"
-                    className="w-16 h-16 object-contain"
-                  />
+                  <div
+                    className="h-16 w-16 p-2 rounded"
+                    style={{ backgroundColor: "var(--color-surface)", border: `1px solid var(--color-border)` }}
+                  >
+                    <img
+                      src="/images/My_journey_logo/fiverr-logo.webp"
+                      alt="Fiverr logo"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
                 </div>
                 <div className="sm:ml-8">
                   <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
-                    📍 2021
+                    2021
                   </p>
                   <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
                     Fiverr Growth Hacking Course
@@ -209,15 +238,20 @@ export default function HomePage() {
               {/* 2020 */}
               <div className="flex flex-col sm:flex-row sm:items-start">
                 <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
-                  <img
-                    src="/images/My_journey_logo/bektitto.com-logo-founder-abid-adnan.jpg"
-                    alt="Bektitto.com logo"
-                    className="w-16 h-16 object-contain"
-                  />
+                  <div
+                    className="h-16 w-16 p-2 rounded"
+                    style={{ backgroundColor: "var(--color-surface)", border: `1px solid var(--color-border)` }}
+                  >
+                    <img
+                      src="/images/My_journey_logo/bektitto.com-logo-founder-abid-adnan.jpg"
+                      alt="Bektitto.com logo"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
                 </div>
                 <div className="sm:ml-8">
                   <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
-                    📍 2020
+                    2020
                   </p>
                   <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
                     Founded, Bektitto.com
@@ -231,11 +265,16 @@ export default function HomePage() {
               {/* 2017 – 2021 */}
               <div className="flex flex-col sm:flex-row sm:items-start">
                 <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
-                  <img
-                    src="/images/My_journey_logo/onnorokom-electornics logo.png"
-                    alt="OnnoRokom Electronics logo"
-                    className="w-16 h-16 object-contain"
-                  />
+                  <div
+                    className="h-16 w-16 p-2 rounded"
+                    style={{ backgroundColor: "var(--color-surface)", border: `1px solid var(--color-border)` }}
+                  >
+                    <img
+                      src="/images/My_journey_logo/onnorokom-electornics logo.png"
+                      alt="OnnoRokom Electronics logo"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
                 </div>
                 <div className="sm:ml-8">
                   <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
@@ -253,15 +292,20 @@ export default function HomePage() {
               {/* 2015 – 2018 */}
               <div className="flex flex-col sm:flex-row sm:items-start">
                 <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
-                  <img
-                    src="/images/My_journey_logo/app-store-logo.jpg"
-                    alt="Apple Appstore logo"
-                    className="w-16 h-16 object-contain"
-                  />
+                  <div
+                    className="h-16 w-16 p-2 rounded"
+                    style={{ backgroundColor: "var(--color-surface)", border: `1px solid var(--color-border)` }}
+                  >
+                    <img
+                      src="/images/My_journey_logo/app-store-logo.jpg"
+                      alt="Apple Appstore logo"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
                 </div>
                 <div className="sm:ml-8">
                   <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
-                    📍 2015 – 2018
+                    2015 – 2018
                   </p>
                   <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
                     Co-Founder, Apekkhik Technology
@@ -272,6 +316,7 @@ export default function HomePage() {
                     https://apps.apple.com/fr/developer/abid-adnan/id1042184103?l=en&see-all=i-phonei-pad-apps
                   </p>
                 </div>
+              </div>
               </div>
             </div>
           </div>

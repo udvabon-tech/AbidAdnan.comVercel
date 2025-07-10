@@ -97,81 +97,185 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* Main Content */}
+      {/* Journey Timeline */}
       <main className="container mx-auto px-4 pb-16">
-        <div className="max-w-4xl mx-auto">
-          {/* Project Card */}
-          <div
-            className="rounded-lg p-8 md:p-12"
-            style={{
-              backgroundColor: "var(--color-surface)",
-              boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
-            }}
+        <section className="max-w-3xl mx-auto">
+          <h2
+            className="text-3xl font-semibold mb-8"
+            style={{ color: "var(--color-text)" }}
           >
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-              {/* Project Content */}
-              <div className="text-center md:text-left">
-                <h2
-                  className="text-3xl md:text-4xl font-semibold mb-6 tracking-tight"
-                  style={{
-                    color: "var(--color-text)",
-                    fontSize: "clamp(36px, 4vw, 48px)",
-                  }}
-                >
-                  UBER MAGIC 2.0
-                </h2>
-                <p
-                  className="leading-relaxed mb-6"
-                  style={{
-                    color: "var(--color-muted)",
-                    fontSize: "18px",
-                  }}
-                >
-                  Led redesign of the pickup experience to launch the Uber Rider App 2.0. Reduced average driver
-                  wait-time (-20%) and pickup error distance (-34%).
-                </p>
-
-                {/* Gradient Text Link */}
-                <a
-                  href="#"
-                  className="ui-text font-normal inline-block transition-opacity hover:opacity-80 cursor-pointer"
-                  style={{
-                    background: "linear-gradient(90deg, #4F46E5 0%, #7C3AED 25%, #EC4899 75%, #EF4444 100%)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    backgroundClip: "text",
-                    fontSize: "16px",
-                    textDecoration: "underline",
-                    textDecorationColor: "#EC4899",
-                    textUnderlineOffset: "4px",
-                    textDecorationThickness: "2px",
-                  }}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    // Add your click handler here
-                    console.log("Read More clicked!")
-                  }}
-                >
-                  Read More
-                </a>
+            My Journey: Experiments That Keep Growing
+          </h2>
+          <div className="relative pl-8">
+            <div
+              className="absolute left-4 top-0 bottom-0 w-px"
+              style={{ backgroundColor: "var(--color-border)" }}
+            ></div>
+            <div className="space-y-12">
+              {/* 2024 – Present */}
+              <div className="flex flex-col sm:flex-row sm:items-start">
+                <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
+                  <img
+                    src="/images/My_journey_logo/becb6b33-b06b-43b8-a022-ab72aa70a5af (1).png"
+                    alt="OnnoRokom logo"
+                    className="w-16 h-16 object-contain"
+                  />
+                </div>
+                <div className="sm:ml-8">
+                  <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
+                    📍 2024 – Present
+                  </p>
+                  <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
+                    Head of AI & Agents, OnnoRokom AI
+                  </h3>
+                  <p className="mt-2" style={{ color: "var(--color-muted)" }}>
+                    Leading and Reshaping workflows around AI initiatives, building custom AI agents for Shohag Vai, OnnRokom Uddokta, Rokomari.com
+                  </p>
+                </div>
               </div>
 
-              {/* Project Image */}
-              <div className="flex justify-center">
-                <div className="w-48 h-48 rounded-lg overflow-hidden">
+              {/* 2022 – 2024 */}
+              <div className="flex flex-col sm:flex-row sm:items-start">
+                <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0 flex space-x-2">
                   <img
-                    src="/images/abid-adnan-hero-portrait.webp"
-                    alt="Abid Adnan - Professional Portrait"
-                    className="w-full h-full object-cover"
-                    style={{
-                      objectPosition: "center top",
-                    }}
+                    src="/images/My_journey_logo/utkorsho-logo-abid-adnan.jpeg"
+                    alt="Utkorsho logo"
+                    className="w-12 h-12 object-contain"
                   />
+                  <img
+                    src="/images/My_journey_logo/bigganbaksho-logo-abid-adnan-head-of-marketing.png"
+                    alt="BigganBaksho logo"
+                    className="w-12 h-12 object-contain"
+                  />
+                </div>
+                <div className="sm:ml-8">
+                  <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
+                    📍 2022 – 2024
+                  </p>
+                  <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
+                    Chief Marketing & Chief Sales Officer, OnnoRokom EdTech (Utkorsho &amp; Bigganbaksho)
+                  </h3>
+                  <p className="mt-2" style={{ color: "var(--color-muted)" }}>
+                    Led the Utkorsho Poribar Facebook group to 100K+ members in 1 month, building an automated enrollment funnel.
+                    Doubled BigganBaksho total yearly sales in 1 year. Turned School Affairs Team from cash-burner to steady revenue stream.
+                  </p>
+                </div>
+              </div>
+
+              {/* 2023 */}
+              <div className="flex flex-col sm:flex-row sm:items-start">
+                <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
+                  <img
+                    src="/images/My_journey_logo/becb6b33-b06b-43b8-a022-ab72aa70a5af (1).png"
+                    alt="GPTBangla logo"
+                    className="w-16 h-16 object-contain"
+                  />
+                </div>
+                <div className="sm:ml-8">
+                  <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
+                    📍 2023
+                  </p>
+                  <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
+                    Founded, GPTBangla.com
+                  </h3>
+                  <p className="mt-2" style={{ color: "var(--color-muted)" }}>
+                    Founded Bangladesh’s first Bangla LLM tool powered by ChatGPT &amp; OpenAI. Making generative AI usable in our own language.
+                  </p>
+                </div>
+              </div>
+
+              {/* 2021 */}
+              <div className="flex flex-col sm:flex-row sm:items-start">
+                <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
+                  <img
+                    src="/images/My_journey_logo/fiverr-logo.webp"
+                    alt="Fiverr logo"
+                    className="w-16 h-16 object-contain"
+                  />
+                </div>
+                <div className="sm:ml-8">
+                  <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
+                    📍 2021
+                  </p>
+                  <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
+                    Fiverr Growth Hacking Course
+                  </h3>
+                  <p className="mt-2" style={{ color: "var(--color-muted)" }}>
+                    Launched a course experiment — scaled it to 10 Lacs+ in 1 month through smart sales, CAPI-optimized Facebook ads &amp; authentic community.
+                  </p>
+                </div>
+              </div>
+
+              {/* 2020 */}
+              <div className="flex flex-col sm:flex-row sm:items-start">
+                <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
+                  <img
+                    src="/images/My_journey_logo/bektitto.com-logo-founder-abid-adnan.jpg"
+                    alt="Bektitto.com logo"
+                    className="w-16 h-16 object-contain"
+                  />
+                </div>
+                <div className="sm:ml-8">
+                  <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
+                    📍 2020
+                  </p>
+                  <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
+                    Founded, Bektitto.com
+                  </h3>
+                  <p className="mt-2" style={{ color: "var(--color-muted)" }}>
+                    Built Bangladesh’s first Bangla personality testing site (Myers-Briggs based). as a side project.
+                  </p>
+                </div>
+              </div>
+
+              {/* 2017 – 2021 */}
+              <div className="flex flex-col sm:flex-row sm:items-start">
+                <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
+                  <img
+                    src="/images/My_journey_logo/onnorokom-electornics logo.png"
+                    alt="OnnoRokom Electronics logo"
+                    className="w-16 h-16 object-contain"
+                  />
+                </div>
+                <div className="sm:ml-8">
+                  <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
+                    2017 – 2021
+                  </p>
+                  <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
+                    Growth Lead, OnnoRokom Bigganbaksho
+                  </h3>
+                  <p className="mt-2" style={{ color: "var(--color-muted)" }}>
+                    Helped Take Bigganbaksho’s online sales from 30K/year to 2 Crore/year. Smallest channel became biggest.
+                  </p>
+                </div>
+              </div>
+
+              {/* 2015 – 2018 */}
+              <div className="flex flex-col sm:flex-row sm:items-start">
+                <div className="sm:w-24 mb-4 sm:mb-0 flex-shrink-0">
+                  <img
+                    src="/images/My_journey_logo/app-store-logo.jpg"
+                    alt="Apple Appstore logo"
+                    className="w-16 h-16 object-contain"
+                  />
+                </div>
+                <div className="sm:ml-8">
+                  <p className="ui-text text-sm mb-1" style={{ color: "var(--color-muted)" }}>
+                    📍 2015 – 2018
+                  </p>
+                  <h3 className="text-xl font-semibold" style={{ color: "var(--color-text)" }}>
+                    Co-Founder, Apekkhik Technology
+                  </h3>
+                  <p className="mt-2" style={{ color: "var(--color-muted)" }}>
+                    Started as a side project thanks to the push from a close friend, then grew to generate 1 Crore+ in pure passive revenue on the Apple App Store within 3 years.
+                    some of the apps are still live here
+                    https://apps.apple.com/fr/developer/abid-adnan/id1042184103?l=en&see-all=i-phonei-pad-apps
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   )

@@ -100,76 +100,40 @@ export default function HomePage() {
       {/* Main Content */}
       <main className="container mx-auto px-4 pb-16">
         <div className="max-w-4xl mx-auto">
-          {/* Project Card */}
+          {/* Journey Milestone Card */}
           <div
-            className="rounded-lg p-8 md:p-12"
+            className="rounded-lg p-8 md:p-12 flex flex-col items-center text-center"
             style={{
               backgroundColor: "var(--color-surface)",
               boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
             }}
           >
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-              {/* Project Content */}
-              <div className="text-center md:text-left">
-                <h2
-                  className="text-3xl md:text-4xl font-semibold mb-6 tracking-tight"
-                  style={{
-                    color: "var(--color-text)",
-                    fontSize: "clamp(36px, 4vw, 48px)",
-                  }}
-                >
-                  UBER MAGIC 2.0
-                </h2>
-                <p
-                  className="leading-relaxed mb-6"
-                  style={{
-                    color: "var(--color-muted)",
-                    fontSize: "18px",
-                  }}
-                >
-                  Led redesign of the pickup experience to launch the Uber Rider App 2.0. Reduced average driver
-                  wait-time (-20%) and pickup error distance (-34%).
-                </p>
-
-                {/* Gradient Text Link */}
-                <a
-                  href="#"
-                  className="ui-text font-normal inline-block transition-opacity hover:opacity-80 cursor-pointer"
-                  style={{
-                    background: "linear-gradient(90deg, #4F46E5 0%, #7C3AED 25%, #EC4899 75%, #EF4444 100%)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    backgroundClip: "text",
-                    fontSize: "16px",
-                    textDecoration: "underline",
-                    textDecorationColor: "#EC4899",
-                    textUnderlineOffset: "4px",
-                    textDecorationThickness: "2px",
-                  }}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    // Add your click handler here
-                    console.log("Read More clicked!")
-                  }}
-                >
-                  Read More
-                </a>
-              </div>
-
-              {/* Project Image */}
-              <div className="flex justify-center">
-                <div className="w-48 h-48 rounded-lg overflow-hidden">
-                  <img
-                    src="/images/abid-adnan-hero-portrait.webp"
-                    alt="Abid Adnan - Professional Portrait"
-                    className="w-full h-full object-cover"
-                    style={{
-                      objectPosition: "center top",
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
+            <img
+              src="/images/My_journey_logo/onnorokom-Edtech-logo-abid-adnan.jpeg"
+              alt="OnnoRokom EdTech Logo"
+              className="w-32 h-auto mb-6"
+            />
+            <p
+              className="ui-text mb-2"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2024 – Present
+            </p>
+            <h2
+              className="text-3xl md:text-4xl font-semibold mb-6 tracking-tight"
+              style={{
+                color: "var(--color-text)",
+                fontSize: "clamp(36px, 4vw, 48px)",
+              }}
+            >
+              Head of AI, OnnoRokom EdTech
+            </h2>
+            <p
+              className="leading-relaxed"
+              style={{ color: "var(--color-muted)", fontSize: "18px" }}
+            >
+              Leading and reshaping workflows around AI initiatives, building custom AI agents for internal use.
+            </p>
           </div>
         </div>
       </main>

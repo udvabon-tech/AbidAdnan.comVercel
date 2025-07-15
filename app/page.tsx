@@ -102,7 +102,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto">
           {/* Journey Milestone Card */}
           <div
-            className="rounded-lg p-8 md:p-12 flex flex-col items-center text-center"
+            className="relative rounded-lg p-8 md:p-12 flex flex-col items-center text-center"
             style={{
               backgroundColor: "var(--color-surface)",
               boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
@@ -114,7 +114,7 @@ export default function HomePage() {
               className="w-32 h-auto mb-6"
             />
             <p
-              className="ui-text mb-2"
+              className="ui-text absolute top-4 left-4 md:top-6 md:left-6"
               style={{ color: "var(--color-muted)", fontSize: "16px" }}
             >
               2024 – Present
@@ -125,7 +125,7 @@ export default function HomePage() {
                 color: "var(--color-text)",
               }}
             >
-              Head of AI, OnnoRokom EdTech
+              Head of AI
             </h2>
             <p
               className="leading-relaxed"

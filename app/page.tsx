@@ -109,7 +109,7 @@ export default function HomePage() {
             }}
           >
             <img
-              src="/images/My_journey_logo/onnorokom-Edtech-logo-abid-adnan.jpeg"
+              src="/images/My_journey_logo/OEL-abid-adnan-head-of-ai.png"
               alt="OnnoRokom EdTech Logo"
               className="w-32 h-auto mb-6"
             />
@@ -120,10 +120,10 @@ export default function HomePage() {
               2024 – Present
             </p>
             <h2
-              className="text-3xl md:text-4xl font-semibold mb-6 tracking-tight"
+              className="text-2xl md:text-3xl font-semibold mb-6 tracking-tight"
               style={{
                 color: "var(--color-text)",
-                fontSize: "clamp(36px, 4vw, 48px)",
+                fontSize: "clamp(32px, 3vw, 40px)",
               }}
             >
               Head of AI, OnnoRokom EdTech

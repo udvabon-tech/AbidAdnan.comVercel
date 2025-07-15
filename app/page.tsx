@@ -108,17 +108,17 @@ export default function HomePage() {
               boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
             }}
           >
+            <p
+              className="ui-text self-start mb-4"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2024 – Present
+            </p>
             <img
               src="/images/My_journey_logo/OEL-abid-adnan-head-of-ai.png"
               alt="OnnoRokom EdTech Logo"
               className="w-32 h-auto mb-6"
             />
-            <p
-              className="ui-text absolute top-4 left-4 md:top-6 md:left-6"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              2024 – Present
-            </p>
             <h2
               className="text-xl md:text-2xl font-semibold mb-6 tracking-tight"
               style={{

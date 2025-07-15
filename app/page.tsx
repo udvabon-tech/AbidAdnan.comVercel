@@ -120,17 +120,17 @@ export default function HomePage() {
               2024 – Present
             </p>
             <h2
-              className="text-2xl md:text-3xl font-semibold mb-6 tracking-tight"
+              className="text-xl md:text-2xl font-semibold mb-6 tracking-tight"
               style={{
                 color: "var(--color-text)",
-                fontSize: "clamp(32px, 3vw, 40px)",
+                fontSize: "clamp(24px, 2.5vw, 32px)",
               }}
             >
               Head of AI, OnnoRokom EdTech
             </h2>
             <p
               className="leading-relaxed"
-              style={{ color: "var(--color-muted)", fontSize: "18px" }}
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
             >
               Leading and reshaping workflows around AI initiatives, building custom AI agents for internal use.
             </p>

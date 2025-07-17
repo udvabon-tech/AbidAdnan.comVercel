@@ -153,22 +153,20 @@ export default function HomePage() {
               className="w-32 h-auto mb-6"
             />
             <h2
-              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-6"
               style={{
                 color: "var(--color-text)",
               }}
             >
-              Onnorokom BigganBaksho
+              Chief Marketing & Sales Officer
             </h2>
             <p
-              className="ui-text mb-6"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              Chief Marketing & Sales Officer
-            </p>
-            <p
               className="leading-relaxed"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+              style={{
+                color: "var(--color-muted)",
+                fontSize: "16px",
+                fontFamily: "Arial, sans-serif",
+              }}
             >
               Doubled BigganBaksho’s yearly sales within just 1 year. Turned the School Affairs Team from a cash-burning unit into a steady revenue stream. Also visualized the entire design philosophy behind Onnorokom Projonmo. This product is very close to my heart — and always will be.
             </p>
@@ -192,20 +190,18 @@ export default function HomePage() {
               className="w-32 h-auto mb-6"
             />
             <h2
-              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-6"
               style={{ color: "var(--color-text)" }}
             >
-              Utkorsho
+              Chief Marketing Officer
             </h2>
             <p
-              className="ui-text mb-6"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              Chief Marketing Officer
-            </p>
-            <p
               className="leading-relaxed"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+              style={{
+                color: "var(--color-muted)",
+                fontSize: "16px",
+                fontFamily: "Arial, sans-serif",
+              }}
             >
               Built the entire enrollment funnel from scratch for Utkorsho’s first course targeting the HSC '25 batch. Led the Utkorsho Poribar Facebook group from 0 to 100,000+ members in just 1 month.
             </p>
@@ -229,20 +225,18 @@ export default function HomePage() {
               className="w-32 h-auto mb-6"
             />
             <h2
-              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-6"
               style={{ color: "var(--color-text)" }}
             >
-              GPTBangla.com
+              Founder
             </h2>
             <p
-              className="ui-text mb-6"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              Founder
-            </p>
-            <p
               className="leading-relaxed"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+              style={{
+                color: "var(--color-muted)",
+                fontSize: "16px",
+                fontFamily: "Arial, sans-serif",
+              }}
             >
               Launched Bangladesh’s first Bangla LLM tool powered by ChatGPT & OpenAI. The mission was to make generative AI truly usable in our own language. Currently on pause for the AI Ready project.
             </p>
@@ -266,20 +260,18 @@ export default function HomePage() {
               className="w-32 h-auto mb-6"
             />
             <h2
-              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-6"
               style={{ color: "var(--color-text)" }}
             >
               Fiverr Growth Hack & Course
             </h2>
             <p
-              className="ui-text mb-6"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              —
-            </p>
-            <p
               className="leading-relaxed"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+              style={{
+                color: "var(--color-muted)",
+                fontSize: "16px",
+                fontFamily: "Arial, sans-serif",
+              }}
             >
               Started freelancing on Fiverr during mid-COVID, reached Level 2 in just 2 months. Launched a course as an experiment — scaled it to 10+ Lacs revenue in 1 month using smart sales strategy, CAPI-optimized Facebook ads, and an authentic, trust-driven community.
             </p>
@@ -303,20 +295,18 @@ export default function HomePage() {
               className="w-32 h-auto mb-6"
             />
             <h2
-              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-6"
               style={{ color: "var(--color-text)" }}
             >
-              Bektitto.com
+              Founder
             </h2>
             <p
-              className="ui-text mb-6"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              Founder
-            </p>
-            <p
               className="leading-relaxed"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+              style={{
+                color: "var(--color-muted)",
+                fontSize: "16px",
+                fontFamily: "Arial, sans-serif",
+              }}
             >
               Created Bangladesh’s first Bangla personality testing platform (based on Myers-Briggs). Started as a side project, but couldn’t continue due to job focus. Will resume soon, In Sha Allah.
             </p>
@@ -340,20 +330,18 @@ export default function HomePage() {
               className="w-32 h-auto mb-6"
             />
             <h2
-              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-6"
               style={{ color: "var(--color-text)" }}
             >
-              Onnorokom Electronics Co.
+              Content Writer → Growth Lead
             </h2>
             <p
-              className="ui-text mb-6"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              Content Writer → Growth Lead
-            </p>
-            <p
               className="leading-relaxed"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+              style={{
+                color: "var(--color-muted)",
+                fontSize: "16px",
+                fontFamily: "Arial, sans-serif",
+              }}
             >
               Started as a content writer, then took lead in the company’s early growth hack initiatives — launching multiple experiments and strategic plays.
             </p>
@@ -377,20 +365,18 @@ export default function HomePage() {
               className="w-32 h-auto mb-6"
             />
             <h2
-              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-6"
               style={{ color: "var(--color-text)" }}
             >
               App Store Publisher
             </h2>
             <p
-              className="ui-text mb-6"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              —
-            </p>
-            <p
               className="leading-relaxed"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+              style={{
+                color: "var(--color-muted)",
+                fontSize: "16px",
+                fontFamily: "Arial, sans-serif",
+              }}
             >
               Published several iOS apps as a side project, thanks to a push from a close friend. Within 3 years, it turned into a passive income stream, generating over 1 Crore BDT from the App Store alone. Some of those apps are still live.
             </p>

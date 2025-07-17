@@ -134,6 +134,267 @@ export default function HomePage() {
               Leading and reshaping workflows around AI initiatives, building custom AI agents for internal use.
             </p>
           </div>
+          <div
+            className="relative rounded-lg p-8 md:p-12 flex flex-col items-center text-center mt-8"
+            style={{
+              backgroundColor: "var(--color-surface)",
+              boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
+            }}
+          >
+            <p
+              className="ui-text self-start mb-4"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2022 – June 2025
+            </p>
+            <img
+              src="/images/My_journey_logo/bigganbaksho-logo-abid-adnan-lighting.png"
+              alt="BigganBaksho Logo"
+              className="w-32 h-auto mb-6"
+            />
+            <h2
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              style={{
+                color: "var(--color-text)",
+              }}
+            >
+              Onnorokom BigganBaksho
+            </h2>
+            <p
+              className="ui-text mb-6"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Chief Marketing & Sales Officer
+            </p>
+            <p
+              className="leading-relaxed"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Doubled BigganBaksho’s yearly sales within just 1 year. Turned the School Affairs Team from a cash-burning unit into a steady revenue stream. Also visualized the entire design philosophy behind Onnorokom Projonmo. This product is very close to my heart — and always will be.
+            </p>
+          </div>
+          <div
+            className="relative rounded-lg p-8 md:p-12 flex flex-col items-center text-center mt-8"
+            style={{
+              backgroundColor: "var(--color-surface)",
+              boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
+            }}
+          >
+            <p
+              className="ui-text self-start mb-4"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2022 – 2024
+            </p>
+            <img
+              src="/images/My_journey_logo/utkorsho-logo-abid-adnan.jpeg"
+              alt="Utkorsho Logo"
+              className="w-32 h-auto mb-6"
+            />
+            <h2
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              style={{ color: "var(--color-text)" }}
+            >
+              Utkorsho
+            </h2>
+            <p
+              className="ui-text mb-6"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Chief Marketing Officer
+            </p>
+            <p
+              className="leading-relaxed"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Built the entire enrollment funnel from scratch for Utkorsho’s first course targeting the HSC '25 batch. Led the Utkorsho Poribar Facebook group from 0 to 100,000+ members in just 1 month.
+            </p>
+          </div>
+          <div
+            className="relative rounded-lg p-8 md:p-12 flex flex-col items-center text-center mt-8"
+            style={{
+              backgroundColor: "var(--color-surface)",
+              boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
+            }}
+          >
+            <p
+              className="ui-text self-start mb-4"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2023 – 2024
+            </p>
+            <img
+              src="/images/My_journey_logo/GPTBangla Logo-abid-adnan-openai-com.png"
+              alt="GPTBangla.com Logo"
+              className="w-32 h-auto mb-6"
+            />
+            <h2
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              style={{ color: "var(--color-text)" }}
+            >
+              GPTBangla.com
+            </h2>
+            <p
+              className="ui-text mb-6"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Founder
+            </p>
+            <p
+              className="leading-relaxed"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Launched Bangladesh’s first Bangla LLM tool powered by ChatGPT & OpenAI. The mission was to make generative AI truly usable in our own language. Currently on pause for the AI Ready project.
+            </p>
+          </div>
+          <div
+            className="relative rounded-lg p-8 md:p-12 flex flex-col items-center text-center mt-8"
+            style={{
+              backgroundColor: "var(--color-surface)",
+              boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
+            }}
+          >
+            <p
+              className="ui-text self-start mb-4"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2020 – 2021
+            </p>
+            <img
+              src="/images/My_journey_logo/fiverr-logo.webp"
+              alt="Fiverr Logo"
+              className="w-32 h-auto mb-6"
+            />
+            <h2
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              style={{ color: "var(--color-text)" }}
+            >
+              Fiverr Growth Hack & Course
+            </h2>
+            <p
+              className="ui-text mb-6"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              —
+            </p>
+            <p
+              className="leading-relaxed"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Started freelancing on Fiverr during mid-COVID, reached Level 2 in just 2 months. Launched a course as an experiment — scaled it to 10+ Lacs revenue in 1 month using smart sales strategy, CAPI-optimized Facebook ads, and an authentic, trust-driven community.
+            </p>
+          </div>
+          <div
+            className="relative rounded-lg p-8 md:p-12 flex flex-col items-center text-center mt-8"
+            style={{
+              backgroundColor: "var(--color-surface)",
+              boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
+            }}
+          >
+            <p
+              className="ui-text self-start mb-4"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2020
+            </p>
+            <img
+              src="/images/My_journey_logo/bektitto.com-logo-founder-abid-adnan.jpg"
+              alt="Bektitto.com Logo"
+              className="w-32 h-auto mb-6"
+            />
+            <h2
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              style={{ color: "var(--color-text)" }}
+            >
+              Bektitto.com
+            </h2>
+            <p
+              className="ui-text mb-6"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Founder
+            </p>
+            <p
+              className="leading-relaxed"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Created Bangladesh’s first Bangla personality testing platform (based on Myers-Briggs). Started as a side project, but couldn’t continue due to job focus. Will resume soon, In Sha Allah.
+            </p>
+          </div>
+          <div
+            className="relative rounded-lg p-8 md:p-12 flex flex-col items-center text-center mt-8"
+            style={{
+              backgroundColor: "var(--color-surface)",
+              boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
+            }}
+          >
+            <p
+              className="ui-text self-start mb-4"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2017 – 2021
+            </p>
+            <img
+              src="/images/My_journey_logo/onnorokom-electornics-logo.png"
+              alt="Onnorokom Electronics Logo"
+              className="w-32 h-auto mb-6"
+            />
+            <h2
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              style={{ color: "var(--color-text)" }}
+            >
+              Onnorokom Electronics Co.
+            </h2>
+            <p
+              className="ui-text mb-6"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Content Writer → Growth Lead
+            </p>
+            <p
+              className="leading-relaxed"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Started as a content writer, then took lead in the company’s early growth hack initiatives — launching multiple experiments and strategic plays.
+            </p>
+          </div>
+          <div
+            className="relative rounded-lg p-8 md:p-12 flex flex-col items-center text-center mt-8"
+            style={{
+              backgroundColor: "var(--color-surface)",
+              boxShadow: `0 4px 6px -1px var(--color-shadow), 0 2px 4px -1px var(--color-shadow)`,
+            }}
+          >
+            <p
+              className="ui-text self-start mb-4"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              2015 – 2018
+            </p>
+            <img
+              src="/images/My_journey_logo/app-store-logo-abid-adnan-com.jpg"
+              alt="App Store Logo"
+              className="w-32 h-auto mb-6"
+            />
+            <h2
+              className="text-xl md:text-2xl font-semibold tracking-tight mb-2"
+              style={{ color: "var(--color-text)" }}
+            >
+              App Store Publisher
+            </h2>
+            <p
+              className="ui-text mb-6"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              —
+            </p>
+            <p
+              className="leading-relaxed"
+              style={{ color: "var(--color-muted)", fontSize: "16px" }}
+            >
+              Published several iOS apps as a side project, thanks to a push from a close friend. Within 3 years, it turned into a passive income stream, generating over 1 Crore BDT from the App Store alone. Some of those apps are still live.
+            </p>
+          </div>
         </div>
       </main>
     </div>

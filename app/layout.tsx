@@ -27,7 +27,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${notoBengali.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer
+          className="text-center py-6 text-sm ui-text"
+          style={{ color: "var(--color-muted)" }}
+        >
+          01234564509
+        </footer>
+      </body>
     </html>
   )
 }

@@ -41,7 +41,7 @@ export default function HomePage() {
                   color: "var(--color-muted)",
                 }}
               >
-                Islam | Future | Insight
+                Islam First Future Readiness
               </h2>
             </div>
 

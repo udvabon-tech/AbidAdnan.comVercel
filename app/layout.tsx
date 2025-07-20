@@ -16,7 +16,7 @@ const notoBengali = Noto_Sans_Bengali({
 
 export const metadata: Metadata = {
   title: "Abid Adnan - Personal Site",
-  description: "Islam | Future | Insight",
+  description: "Islam First Future Readiness",
     generator: 'v0.dev'
 }
 

@@ -15,9 +15,9 @@ const notoBengali = Noto_Sans_Bengali({
 })
 
 export const metadata: Metadata = {
-  title: "Abid Adnan — AI Visionary from Bangladesh",
+  title: "Abid Adnan — AI Educator from Bangladesh",
   description:
-    "Founder of GPTBangla and AIReady, building Bangladesh's AI future through education, tools, and thought leadership.",
+    "AI Educator and founder of GPTBangla and AIReady, building Bangladesh's AI future through education, tools, and thought leadership.",
   generator: "v0.dev",
 }
 
@@ -25,7 +25,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Abid Adnan",
-  jobTitle: "AI Visionary from Bangladesh",
+  jobTitle: "AI Educator from Bangladesh",
   url: "https://abid-adnan.com",
 }
 

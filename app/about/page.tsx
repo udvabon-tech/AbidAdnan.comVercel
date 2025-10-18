@@ -16,13 +16,6 @@ export default function AboutPage() {
               Home
             </Link>
             <Link
-              href="#writing"
-              className="ui-text text-sm md:text-base tracking-wider hover:opacity-80 transition-colors"
-              style={{ color: "var(--color-muted)", fontSize: "16px" }}
-            >
-              WRITING
-            </Link>
-            <Link
               href="/about"
               className="ui-text text-sm md:text-base tracking-wider pb-1 transition-colors"
               style={{

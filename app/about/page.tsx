@@ -85,7 +85,17 @@ export default function AboutPage() {
               >
                 Claude Code
               </a>
-              . Supervised by Abid Adnan.
+              . Supervised by{" "}
+              <a
+                href="https://www.facebook.com/fb.abid.adnan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+                style={{ color: "var(--color-primary)" }}
+              >
+                Abid Adnan
+              </a>
+              .
             </p>
           </div>
         </div>

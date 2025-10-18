@@ -59,6 +59,37 @@ export default function AboutPage() {
           </div>
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="border-t py-8" style={{ borderColor: "var(--color-border)" }}>
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center space-y-4">
+            <p style={{ color: "var(--color-muted)", fontSize: "16px" }}>
+              Contact:{" "}
+              <a
+                href="mailto:abid.mahmud.adnan@gmail.com"
+                className="hover:opacity-80 transition-opacity"
+                style={{ color: "var(--color-primary)" }}
+              >
+                abid.mahmud.adnan@gmail.com
+              </a>
+            </p>
+            <p className="text-sm" style={{ color: "var(--color-muted)", fontSize: "14px" }}>
+              Made and controlled entirely by{" "}
+              <a
+                href="https://claude.com/claude-code"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+                style={{ color: "var(--color-primary)" }}
+              >
+                Claude Code
+              </a>
+              . Supervised by Abid Adnan.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
